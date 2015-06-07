@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Android Developer Nanodegree</string>
+    <string name="portfolio">Android App Portfolio</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+</resources>
