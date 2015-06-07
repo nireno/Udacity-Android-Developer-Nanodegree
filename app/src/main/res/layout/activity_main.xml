@@ -41,32 +41,38 @@
             <Button
                 android:id="@+id/btn_streamer"
                 style="@style/MainMenuButton"
-                android:text="@string/streamer" />
+                android:text="@string/streamer"
+                android:onClick="underConstructionToast" />
 
             <Button
                 android:id="@+id/btn_scores"
                 style="@style/MainMenuButton"
-                android:text="@string/scores" />
+                android:text="@string/scores"
+                android:onClick="underConstructionToast" />
 
             <Button
                 android:id="@+id/btn_library"
                 style="@style/MainMenuButton"
-                android:text="@string/library" />
+                android:text="@string/library"
+                android:onClick="underConstructionToast" />
 
             <Button
                 android:id="@+id/btn_bigger"
                 style="@style/MainMenuButton"
-                android:text="@string/bigger" />
+                android:text="@string/bigger"
+                android:onClick="underConstructionToast" />
 
             <Button
                 android:id="@+id/btn_reader"
                 style="@style/MainMenuButton"
-                android:text="@string/reader" />
+                android:text="@string/reader"
+                android:onClick="underConstructionToast" />
 
             <Button
                 android:id="@+id/btn_capstone"
                 style="@style/MainMenuButton"
-                android:text="@string/capstone" />
+                android:text="@string/capstone"
+                android:onClick="underConstructionToast" />
 
         </LinearLayout>
 
@@ -77,5 +83,13 @@
             android:orientation="vertical"></LinearLayout>
 
     </LinearLayout>
+
+    <Button
+        style="?android:attr/buttonStyleSmall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="New Button"
+        android:id="@+id/button"
+        android:layout_gravity="right" />
 
 </LinearLayout>
