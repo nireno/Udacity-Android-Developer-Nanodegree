@@ -72,7 +72,9 @@
                 android:id="@+id/btn_capstone"
                 style="@style/MainMenuButton"
                 android:text="@string/capstone"
-                android:onClick="underConstructionToast" />
+                android:onClick="underConstructionToast"
+                android:background="@drawable/button_accented"
+                android:textColor="#FFF" />
 
         </LinearLayout>
 
